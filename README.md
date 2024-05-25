@@ -21,7 +21,7 @@ This is a simple e-commerce API built with Node.js and Express.js, utilizing Sup
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ecommerce-api.git
+   git clone https://github.com/usama739/Ecommerce-API.git
    cd ecommerce-api
 2. Install dependencies:
    ```bash
