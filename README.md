@@ -1,13 +1,18 @@
 A simple e-commerce API built with Node.js, Express.js, and Supabase.
 
 ## Table of Contents
+- [Documentation](#documentation)
 - [Installation](#installation)
 - [Endpoints](#endpoints)
   - [Authentication](#authentication)
   - [Product Management](#product-management)
   - [Cart Management](#cart-management)
   - [Order Placement](#order-placement)
-- [Documentation](#documentation)
+
+
+## Documentation
+API documentation is available at `/api-docs`.
+
 
 ## Installation
 
@@ -30,27 +35,36 @@ Once the server is running, you can use tools like Postman to interact with the 
 
 
 ## Endpoints
-# Authentication
+## Authentication
 Register a New User
 URL: POST `/api/auth/register`
+
 Description: Registers a new user.
+
 ![1_User Registration](https://github.com/usama739/Ecommerce-API/assets/89732076/70c26ff5-50f3-49b7-9d9d-29a5b669ce5a)
 
 Login
 URL: POST `/api/auth/login`
+
 Description: Logs in a user.
+
 ![2_User Login](https://github.com/usama739/Ecommerce-API/assets/89732076/69d97f64-8d30-4d74-b313-55765e2198de)
 
 
 # Product Management
 Create a New Product
 URL: POST `/api/products`
+
 Description: Creates a new product.
+
 ![3_Creating New Product](https://github.com/usama739/Ecommerce-API/assets/89732076/44e919f2-9e61-408b-aac0-39ac72c4e9e5)
+
 
 Retrieve or Filter Products by Category
 URL: GET `/api/products?category=CategoryName`
+
 Description: Retrieves products filtered by category.
+
 ![4_Filtering Products by Category](https://github.com/usama739/Ecommerce-API/assets/89732076/a124252b-c405-42a9-b368-96e904837be1)
 
 Update a Product
@@ -99,6 +113,3 @@ Description: Retrieves order details by order ID.
 ![13_Get Order Content (Incorrect Authentication)](https://github.com/usama739/Ecommerce-API/assets/89732076/6bd8e50e-a1b3-4be3-9eab-234c79743ad5)
 ![14_Get Order Content](https://github.com/usama739/Ecommerce-API/assets/89732076/f46a3fbb-3410-422a-8ba0-c17ebe2c4358)
 
-
-## Documentation
-API documentation is available at `/api-docs`.
