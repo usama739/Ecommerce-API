@@ -1,4 +1,4 @@
-A simple e-commerce API built with Node.js, Express.js, and Supabase.
+This is a simple e-commerce API built with Node.js and Express.js, utilizing Supabase for data storage. The API supports product management, cart management, order placement, and user authentication.
 
 ## Table of Contents
 - [Documentation](#documentation)
@@ -8,6 +8,8 @@ A simple e-commerce API built with Node.js, Express.js, and Supabase.
   - [Product Management](#product-management)
   - [Cart Management](#cart-management)
   - [Order Placement](#order-placement)
+
+
 
 
 ## Documentation
@@ -92,6 +94,9 @@ A simple e-commerce API built with Node.js, Express.js, and Supabase.
 
 
 ## Cart Management
+
+_Note: Only authenticated users can access and modify their cart information._
+
 1. Create a New Cart
 
    URL: POST `/api/cart`
@@ -131,6 +136,8 @@ A simple e-commerce API built with Node.js, Express.js, and Supabase.
 
 
 ## Order Placement
+
+_Note: Only authenticated users can access and modify their order information._
 
 1. Place an Order
 
