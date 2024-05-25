@@ -11,3 +11,10 @@ A simple e-commerce API built with Node.js, Express.js, and Supabase.
 - [Documentation](#documentation)
 - [Testing](#testing)
 - [Deployment](#deployment)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ecommerce-api.git
+   cd ecommerce-api
