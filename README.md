@@ -30,8 +30,8 @@ A simple e-commerce API built with Node.js, Express.js, and Supabase.
 
 Once the server is running, you can use tools like Postman to interact with the API endpoints.
 
-##Endpoints
-##Authentication
-Register a New User
-URL: POST `/api/auth/register`
-Description: Registers a new user.
+## Endpoints
+## Authentication
+    Register a New User
+    URL: POST `/api/auth/register`
+    Description: Registers a new user.
