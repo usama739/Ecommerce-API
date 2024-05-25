@@ -16,6 +16,7 @@ This is a simple e-commerce API built with Node.js and Express.js, utilizing Sup
    API documentation is available at `/api-docs`.
 
 
+
 ## Installation
 
 1. Clone the repository:
@@ -36,6 +37,7 @@ This is a simple e-commerce API built with Node.js and Express.js, utilizing Sup
   Once the server is running, you can use tools like Postman to interact with the API endpoints.
 
 
+
 ## Endpoints
 ## Authentication
 1. Register a New User
@@ -48,6 +50,7 @@ This is a simple e-commerce API built with Node.js and Express.js, utilizing Sup
 
 
 
+
 2. Login
 
    URL: POST `/api/auth/login`
@@ -55,6 +58,7 @@ This is a simple e-commerce API built with Node.js and Express.js, utilizing Sup
    Description: Logs in a user.
     
    ![2_User Login](https://github.com/usama739/Ecommerce-API/assets/89732076/69d97f64-8d30-4d74-b313-55765e2198de)
+
 
 
 
@@ -70,6 +74,7 @@ This is a simple e-commerce API built with Node.js and Express.js, utilizing Sup
 
 
 
+
 2. Retrieve or Filter Products by Category
 
    URL: GET `/api/products?category=CategoryName`
@@ -77,6 +82,7 @@ This is a simple e-commerce API built with Node.js and Express.js, utilizing Sup
    Description: Retrieves products filtered by category.
     
    ![4_Filtering Products by Category](https://github.com/usama739/Ecommerce-API/assets/89732076/a124252b-c405-42a9-b368-96e904837be1)
+
 
 
 
@@ -90,6 +96,7 @@ This is a simple e-commerce API built with Node.js and Express.js, utilizing Sup
 
 
 
+
 4. Delete a Product
 
    URL: DELETE `/api/products/:id`
@@ -97,6 +104,7 @@ This is a simple e-commerce API built with Node.js and Express.js, utilizing Sup
    Description: Deletes a product.
     
    ![6_Deleting Product](https://github.com/usama739/Ecommerce-API/assets/89732076/3605d36e-f570-4e48-b266-3472b4cd3530)
+
 
 
 
@@ -115,6 +123,7 @@ _Note: Only authenticated users can access and modify their cart information._
 
 
 
+
 2. Add Product to Cart
 
    URL: POST `/api/cart/add`
@@ -122,6 +131,7 @@ _Note: Only authenticated users can access and modify their cart information._
    Description: Adds a product to the user's cart with a specified quantity.
     
    ![8_Adding Product to cart](https://github.com/usama739/Ecommerce-API/assets/89732076/2e1e6f10-c903-4ce2-a343-a37ccdfbb6f1)
+
 
 
 
@@ -142,13 +152,15 @@ _Note: Only authenticated users can access and modify their cart information._
 
 
 
-3. Get Cart Contents
+
+4. Get Cart Contents
 
    URL: GET `/api/cart/:userId`
     
    Description: Retrieves the contents of the user's cart.
     
    ![11_Get cart content](https://github.com/usama739/Ecommerce-API/assets/89732076/bae3c457-d728-42eb-8b3c-adf4e70d05f6)
+
 
 
 
@@ -164,6 +176,7 @@ _Note: Only authenticated users can access and modify their order information._
    Description: Places an order by converting the contents of the user's cart into an order.
     
    ![12_Order Placed](https://github.com/usama739/Ecommerce-API/assets/89732076/992b1f1d-6556-479b-877c-e43e18fd2db7)
+
 
 
 
